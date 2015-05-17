@@ -24,12 +24,12 @@ THE SOFTWARE.
 
  */
 
-"use strict";
-
 /**
  * Service for opening keepass files
  */
 function Keepass(keepassHeader, pako, settings, passwordFileStoreRegistry) {
+	"use strict";
+
   var my = {
 
   };
